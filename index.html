@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Digital Scams & Cyber Awareness</title>
+        <link rel="stylesheet" href="scam.css">
+        <meta name="viewport" content="width=device-width, initial-scaole=1.0">
+    </head>
+    <body>
+        <div class="sub">
+
+  <div class="menu-item">
+    <span onclick="toggleMenu('home')">Home ▼</span>
+    <div id="home" class="dropdown">
+      <p>Overview</p>
+      <p>Latest Alerts</p>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <span onclick="toggleMenu('about')">About ▼</span>
+    <div id="about" class="dropdown">
+      <p>What is a Scam?</p>
+      <p>Why Awareness Matters</p>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <span onclick="toggleMenu('types')">Types of Scams ▼</span>
+    <div id="types" class="dropdown">
+      <p>Online Scams</p>
+      <p>Phone&Message Scams</p>
+      <p>Financial Scams</p>
+      <p>Identity Scams</p>
+      <p>Offline Scams</p>
+      <p>Modern Scams</p>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <span onclick="toggleMenu('prevention')">Prevention Tips ▼</span>
+    <div id="prevention" class="dropdown">
+      <p>Safety Tips</p>
+      <p>Do & Don’ts</p>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <span onclick="toggleMenu('help')">Help▼</span>
+    <div id="help" class="dropdown">
+      <p>Report a Scam</p>
+      <p>Helpline Numbers</p>
+    </div>
+  </div>
+
+</div>
+<script>
+function toggleMenu(id) {
+  document.querySelectorAll('.dropdown').forEach(d => {
+    if (d.id !== id) d.style.display = "none";
+  });
+
+  const menu = document.getElementById(id);
+  menu.style.display = menu.style.display === "block" ? "none" : "block";
+}
+</script>
+
+          <br>
+                <div class="scam-container">
+                      <img src="scammer.png" class="scam-img" >
+
+                      <div class="scam-text">
+                         <h1>What is SCAM?</h1>
+                         <br>
+                         <p>A scam is a dishonest act used to cheat people for money or personal information.
+                            Scammers often pretend to be trusted individuals or organizations.
+                            They use fear, urgency, or fake offers to manipulate victims.
+                            Being aware of scams helps people stay safe and protect themselves online.
+                         </p>
+                       </div>
+                 </div>
+        <br>
+                 <div class="alerts">
+                     <img src="scams.png" class="scams-img">
+
+                     <div class="alert">
+                         <h1>Recognizing Scam Victims</h1>
+
+                         <p><b>You may receive unexpected messages asking for money or personal details.<br>
+                            The messages often create a sense of urgency or fear.<br>
+                            Many people realize it’s a scam only after facing a loss.<br>
+                            Always pause, verify, and protect yourself.</b>
+                        </p>
+                     </div>
+                     </div>
+        <div class="scam-containerr">
+            <h2>Digital scams and Cyber Awareness</h2>
+            <br>
+            <p>Scams are increasing rapidly in both online and offline spaces.
+               They can happen through calls, messages, emails, or fake websites.
+                Many people lose money or personal information due to scams.
+                Scammers use social media, fake offers, and phishing emails to trick individuals.
+                Young and elderly people are often the most vulnerable targets.
+                Lack of awareness or ignoring warning signs makes people fall victim.
+                To stay safe, always verify sources before clicking links or responding.
+                Never share OTPs, passwords, or personal details with anyone.
+                Reporting scams to authorities and educating others can prevent losses.
+                Being cautious and spreading awareness helps build a safer community.</p>
+        </div>
+        <h3>Types of Scams</h3>
+        <hr>
+        <div class="phone-container">
+        <div class="online">
+            <div class="online-txt">
+                <h1>Online Scams</h1>
+                <p>An <b>online scam</b>is a type of internet fraud where scammers pretend to be trustworthy to deceive people. They trick victims using fake emails, messages, websites, or social media to steal personal, financial, or banking information. The main goal is to take money or misuse sensitive data for illegal purposes.
+</p>
+               <button onclick="alert('Redirecting to the page...'); window.location.href='online.html'">View more</button>
+
+            </div>
+            <img src="online.png" class="online-img">
+        </div>
+    
+        <div class="online">
+            <div class="online-txt">
+                <h1>Phone&Message Scams</h1>
+                <p><b>Phone/Message</b> Scams are fraudulent attempts to steal personal or financial information using calls or text messages. Scammers often pose as banks, officials, or companies to trick victims into revealing sensitive data. These scams can lead to identity theft, loss, or unauthorized access if precautions are not taken.</p>
+               <button onclick="alert('Redirecting to the page...'); window.location.href='phone.html'">View more</button>
+
+            </div>
+            <img src="phone.png" class="online-img">
+        </div>
+        <div class="online">
+            <div class="online-txt">
+                <h1>Financial Scams</h1>
+                <p><b>Financial scams</b> trick people into giving money or sensitive information. They include credit card fraud, fake loans, Ponzi schemes, and fake charities. Victims often lose money or have their accounts compromised. These scams can happen online or offline, targeting anyone.</p>
+               <button onclick="alert('Redirecting to the page...'); window.location.href='financial.html'">View more</button>
+
+            </div>
+            <img src="fin.png" class="online-img">
+        </div>
+        <div class="online">
+            <div class="online-txt">
+                <h1>Identity Scams</h1>
+                <p><b>Identity scams</b> occur when fraudsters steal personal information to commit fraud. They may open accounts, take loans, or access existing online accounts in someone else’s name. Victims can suffer financial loss or damage to their credit. Protecting personal information is key to avoiding these scams.</p>
+               <button onclick="alert('Redirecting to the page...'); window.location.href='identity.html'">View more</button>
+
+            </div>
+            <img src="iden.png" class="online-img">
+        </div>
+        <div class="online">
+            <div class="online-txt">
+                <h1>Offline Scams</h1>
+                <p><b>Offline scams</b> involve real-world interactions where fraudsters trick victims. Examples include door-to-door scams, fake job offers, or lottery/prize schemes. Victims may lose money or share sensitive information unknowingly. Staying cautious and verifying offers helps prevent such scams.</p>
+               <button onclick="alert('Redirecting to the page...'); window.location.href='offline.html'">View more</button>
+
+            </div>
+            <img src="img.png" class="online-img">
+        </div>
+       <div class="online">
+            <div class="online-txt">
+                <h1>Modern Scams</h1>
+                <p><b>Specialized scams</b> use modern tools or platforms to defraud people. Examples business email compromise, and fake rental listings. These are often sophisticated and can result in large financial losses. Awareness and careful verification are essential to stay safe.</p>
+               <button onclick="alert('Redirecting to the page...'); window.location.href='modern.html'">View more</button>
+
+            </div>
+            <img src="imgg.png" class="online-img">
+        </div>
+
+
+        </div>
+        <br>
+        <footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-box">
+      <h3>About Project</h3>
+      <p>
+        This website is created to spread awareness about scams
+        and help people stay safe from fraud.
+      </p>
+    </div>
+
+    <div class="footer-box">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href=>What is Scam</a></li>
+        <li><a href="#">Types of Scams</a></li>
+        <li><a href="#">Prevention Tips</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-box">
+      <h3>Helpline</h3>
+      <p>📞 Cyber Crime: <b>1930</b></p>
+      <p>🌐 cybercrime.gov.in</p>
+    </div>
+
+    <div class="footer-box">
+      <h3>Disclaimer</h3>
+      <p>
+        This project is for educational purposes only.
+        No real data is used.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Scam Awareness Project | Stay Alert, Stay Safe
+  </div>
+</footer>
+
+ </body>
+</html>
