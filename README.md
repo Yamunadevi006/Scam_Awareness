@@ -62,7 +62,7 @@ How to Use
 
 Clone this repository:
 
-git clone https://github.com/Yamunadevi006/Scam-awareness.git
+git clone https://github.com/Yamunadevi006/Scam_Awareness.git
 
 
 Open index.html in a web browser.
